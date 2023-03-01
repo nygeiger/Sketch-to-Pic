@@ -1,2 +1,7 @@
-# Sketch-to-Pic
-One program creates sketches. Another uses those sketches to generate pictures
+## Sketch-to-Pic
+
+# Pic-to-Sketch
+The Pic-to-Sketch program turns a given set of pictures into sketches for each. It also creates a dataset of these pictures so that they can be fed into the Sketch-to-Pic program to train the model for picture generation
+
+# Sketch-to-Pic_GAN
+The Sketch-to-Pic_GAN generates a picture based on a given sketch representation. This is done by training a GAN (Generational Adversarial Network) on a set of pictrues, and accompanying sketches of various detail representing each picture. For additional information on GAN you can checkout my [blog](https://ngeiger4.wixsite.com/ai-in-policing/post/to-gan-or-not-to-gan).
